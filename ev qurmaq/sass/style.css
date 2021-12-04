@@ -1,0 +1,304 @@
+body {
+  margin: 0;
+}
+
+.container {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  background-color: black;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.container .button-zone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+
+.container .home-contain {
+  margin-top: 100px;
+  width: 400px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.container .home-contain .sol-divar {
+  width: 10px;
+  height: 70%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: brown;
+}
+
+.container .home-contain .sag-divar {
+  width: 10px;
+  height: 70%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: brown;
+}
+
+.container .home-contain .arxa-sol {
+  width: 100px;
+  height: 10px;
+  background-color: brown;
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+
+.container .home-contain .arxa-sag {
+  width: 100px;
+  height: 10px;
+  background-color: brown;
+  position: absolute;
+  top: 30%;
+  right: 0;
+}
+
+.container .home-contain .on-sol {
+  position: absolute;
+  width: 150px;
+  height: 10px;
+  background-color: brown;
+  bottom: 0;
+  left: 0;
+}
+
+.container .home-contain .on-sag {
+  position: absolute;
+  width: 150px;
+  height: 10px;
+  background-color: brown;
+  bottom: 0;
+  right: 0;
+}
+
+.container .home-contain .hasar {
+  position: absolute;
+  width: 102px;
+  height: 30px;
+  background-color: brown;
+  bottom: 0;
+  left: 37%;
+  -webkit-transition: 2s !important;
+  transition: 2s !important;
+}
+
+.container .home-contain .home-body {
+  width: 200px;
+  height: 200px;
+  background-color: #d366d3;
+  position: relative;
+}
+
+.container .home-contain .home-body .home-dam {
+  -webkit-clip-path: polygon(49% 36%, 0% 100%, 100% 100%);
+          clip-path: polygon(49% 36%, 0% 100%, 100% 100%);
+  width: 200px;
+  height: 200px;
+  background-color: #2e2c2c;
+  position: absolute;
+  top: -199px;
+}
+
+.container .home-contain .home-body .window {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+
+.container .home-contain .home-body .window-1 {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+}
+
+.container .home-contain .home-body .window-2 {
+  position: absolute;
+  left: 20px;
+  top: 50px;
+}
+
+.container .home-contain .home-body .door {
+  width: 40px;
+  height: 60px;
+  background-color: brown;
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+}
+
+.container #moon {
+  position: absolute;
+  top: 60px;
+  left: 400px;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.container #moon i {
+  font-size: 100px;
+  color: #F4F6F0;
+}
+
+.container #sun {
+  position: absolute;
+  top: 60px;
+  right: 400px;
+  -webkit-transition: 3s;
+  transition: 3s;
+  -webkit-transform: translateX(700px);
+          transform: translateX(700px);
+}
+
+.container #sun i {
+  font-size: 100px;
+  color: yellow;
+}
+
+.container #tree {
+  position: absolute;
+  top: 300px;
+  left: 150px;
+}
+
+.container #tree i {
+  font-size: 50px;
+  margin-left: 10px;
+  color: green;
+}
+
+.container #tree1 {
+  position: absolute;
+  top: 400px;
+  left: 150px;
+}
+
+.container #tree1 i {
+  font-size: 50px;
+  margin-left: 10px;
+  color: green;
+}
+
+.container #tree2 {
+  position: absolute;
+  top: 500px;
+  left: 150px;
+}
+
+.container #tree2 i {
+  font-size: 50px;
+  margin-left: 10px;
+  color: green;
+}
+
+.container #tree3 {
+  position: absolute;
+  top: 300px;
+  right: 150px;
+}
+
+.container #tree3 i {
+  font-size: 50px;
+  margin-left: 10px;
+  color: green;
+}
+
+.container #tree4 {
+  position: absolute;
+  top: 400px;
+  right: 150px;
+}
+
+.container #tree4 i {
+  font-size: 50px;
+  margin-left: 10px;
+  color: green;
+}
+
+.container #tree5 {
+  position: absolute;
+  top: 500px;
+  right: 150px;
+}
+
+.container #tree5 i {
+  font-size: 50px;
+  margin-left: 10px;
+  color: green;
+}
+
+.container #cloud {
+  margin-top: 25px;
+  position: absolute;
+  top: 0;
+  left: 150px;
+}
+
+.container #cloud i {
+  font-size: 100px;
+  color: grey;
+  margin-right: 250px;
+}
+
+.has {
+  -webkit-transform: translateX(100px) !important;
+          transform: translateX(100px) !important;
+  -webkit-transition: 2s !important;
+  transition: 2s !important;
+}
+
+.win {
+  background-color: yellow !important;
+}
+
+.moon-go {
+  -webkit-transform: translateX(-700px);
+          transform: translateX(-700px);
+  opacity: 0;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.sun-go {
+  -webkit-transform: translateX(0px) !important;
+          transform: translateX(0px) !important;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.white {
+  background-color: #e0ffff !important;
+}
+
+.whit {
+  color: #87ceeb !important;
+}
+/*# sourceMappingURL=style.css.map */
