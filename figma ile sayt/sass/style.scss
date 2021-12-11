@@ -1,0 +1,591 @@
+// Header Start
+
+header{
+    .container{
+        width: 1440px;
+        background: #ffffff;
+        a{
+            img{
+                width: 100%;
+                max-width: 129px;
+                height: 64.5px;
+            }
+            h3{
+                width: 100%;
+                max-width: 163px;
+                min-height: 41px;
+                position: absolute;
+                left: 17%;
+                top: 23%;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 900;
+                font-style: normal;
+                font-size: 35px;
+                line-height: 41px;
+                color: #000000;
+            }
+        }
+        ul{
+            li{
+                a{
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 800;
+                    font-style: normal;
+                    font-size: 17px;
+                    line-height: 20px;
+                    letter-spacing: 1.275px;
+                    color: #000000;
+                }
+            }
+        }
+        form{
+            button{
+                width: 168px;
+                height: 41px;
+                background: #4BA87D;
+            }
+            .btn-1{
+            
+                font-family: 'Raleway', sans-serif;
+                font-weight: 800;
+                font-style: normal;
+                font-size: 17px;
+                line-height: 20px;
+                letter-spacing: 1.275px;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+// Header End
+
+// Section-1 Start
+
+#about-1{
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    .container{
+        
+        align-items: center;
+        .umumi-text-button{
+            width: 100%;
+            max-width: 721px;
+            height: auto;
+            z-index: 10000;
+            .title{
+                h1{
+                    padding-top: 40px;
+                    width: 100%;
+                    max-width: 700px;
+                    height: auto;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 900;
+                    font-style: normal;
+                    font-size: 65px;
+                    line-height: 70px;
+                    color: #000000;
+                }
+            }
+            .text{
+                p{
+                    max-width: 446px;
+                    height: auto;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 500;
+                    font-style: normal;
+                    font-size: 19px;
+                    line-height: 26px;
+                    color: #000000;
+                }
+            }
+            .button-1{
+               .box1{
+                width: 200px;
+                height: 50px;
+                background: #4BA87D;
+                border-radius: 5px;
+               }
+               .btn-text-1 {
+                    width: 200px;
+                    height: 25px;
+                   h6{
+                    font-family: 'Raleway', sans-serif;
+                       font-weight: 900;
+                       font-style: normal;
+                       font-size: 21px;
+                       line-height: 25px;
+                       letter-spacing: 1.05px;
+                       text-align: center;
+                       color: #ffffff;
+                       padding-top: 10px;
+                    }
+               }
+            }
+            .button-2{
+                padding-left: 30px;
+            .box2{
+                width: 200px;
+                height: 50px;
+                border: 2px solid #4BA87D;
+                border-radius: 5px;
+                background: #ffffff;
+                }
+               .btn-text-2 {
+                    width: 200px;
+                    height: 25px;
+                   h6{
+                    font-family: 'Raleway', sans-serif;
+                       font-weight: 900;
+                       font-style: normal;
+                       font-size: 21px;
+                       line-height: 25px;
+                       letter-spacing: 1.05px;
+                       text-align: center;
+                       color: #4BA87D;
+                       padding-top: 10px;
+                    }
+               }
+            }
+        }
+        .images{
+            z-index: 10;
+            img{
+                width: 100%;
+                max-width: 721px;
+                height: auto;
+            }
+        }
+    }
+}
+
+// Section-1 End
+
+// Section-2 Start
+
+#about-2{
+    width: 100%;
+    max-width: 1440px;
+    height: auto;
+    .container{
+        width: 100%;
+        max-width: 1440px;
+        height: auto;
+        padding-bottom: 200px;
+       .images{
+           position: relative;
+           text-align: center;
+           align-items: center;
+           justify-content: center;
+           z-index: -100;
+           img{
+            width: 100%;
+            max-width: 944px;
+            height: auto;
+           }
+        }
+        .text-button{
+            width: 100%;
+            max-width: 1440px;
+            height: auto;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            .text{
+                h1{
+                    width: 100%;
+                    max-width: 656px;
+                    height: auto;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 900;
+                    font-style: normal;
+                    font-size: 60px;
+                    line-height: 80px;
+                    color: #ffffff;
+                }
+            }
+            .button{
+                .box{
+                    width: 100%;
+                    max-width: 200px;
+                    height: auto;
+                    background: #ffffff;
+                    .btn-text{
+                        width: 100%;
+                        max-width: 136px;
+                        height: auto;
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 900;
+                        font-style: normal;
+                        font-size: 21px;
+                        line-height: 25px;
+                        letter-spacing: 1.05px;
+                        text-align: center;
+                        align-items: center;
+                        justify-content: center;
+                        color: #4BA87D;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Section-2 End
+
+// Section-3 Start
+
+#about-3{
+    background-color: #4BA87D;
+    .container{
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .card1{
+            border-style: none;
+            img{
+                width: 100%;
+                max-width: 424.34px;
+                height: auto;
+            }
+            .card-body{
+                background: #ffffff;
+                .card-text1{
+                    width: 300px;
+                    height: 90px;
+                    left: 30px;
+                    top: 277px;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 500;
+                    font-style: normal;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #000000;
+                }
+                .card-text2{
+                    width: 300px;
+                    height: 30px;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 800;
+                    font-style: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #4BA87D;
+                }
+            }
+        }
+        .card2{
+            border-style: none;
+            padding-top: 100px;
+            padding-left: 25px;
+            img{
+                width: 100%;
+                max-width: 423.39px;
+                height: auto;
+            }
+            .card-body{
+                background: #ffffff;
+                .card-text3{
+                    width: 300px;
+                    height: 90px;
+                    left: 30px;
+                    top: 277px;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 500;
+                    font-style: normal;
+                    font-size: 16px;
+                    line-height: 26px;
+                    color: #000000;
+                }
+                .card-text4{
+                    width: 300px;
+                    height: 30px;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 800;
+                    font-style: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #4BA87D;
+                }
+            }
+        }
+        .card3{
+            border-style: none;
+            padding-top: 150px;
+            padding-left: 25px;
+            h1{
+                width: 365px;
+                height: 120px;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 900;
+                font-style: normal;
+                font-size: 44px;
+                line-height: 45px;
+                color: #000000;
+            }
+            .card-body{
+                .card-text5{
+                    width: 322px;
+                    height: 156px;
+                    left: 30px;
+                    top: 277px;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 500;
+                    font-style: normal;
+                    font-size: 19px;
+                    line-height: 26px;
+                    color: #000000;
+                }
+                .card-text4{
+                    width: 300px;
+                    height: 30px;
+                    font-family: 'Raleway', sans-serif;
+                    font-weight: 800;
+                    font-style: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #4BA87D;
+                }
+            }
+        }
+    }
+}
+
+// Section-3 End
+
+// Section-4 Start
+
+#about-4{
+    .container{
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+        /*.umumi-card{
+            position: relative;
+            z-index: 1;*/
+            .card{
+                border-style: none;
+                img{
+                    width: 100%;
+                    max-width: 342px;
+                    height: auto;
+                }
+            }
+            /*.card-body{
+                position: absolute;
+                z-index: 1000;
+                width: 100%;
+                max-width: 342px;
+                height: 239px;
+                .card-title{
+                    color: #ffffff;
+                }
+                .card-text{
+                    color: #ffffff;
+                }
+
+            }
+        }*/
+        .title1{
+            width: 100%;
+            max-width: 1440px;
+            height: auto;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            h1{
+                font-family: 'Raleway', sans-serif;
+                font-weight: 900;
+                font-style: normal;
+                font-size: 44px;
+                line-height: 48px;
+                color: #000000;
+            }
+        }
+        form{
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            padding-top: 20px;
+            input{
+                width: 420px;
+                height: 50px;
+                border: 1px solid #9F9F9F;
+                border-radius: 5px;
+                box-sizing: border-box;
+                background: #ffffff;
+            }
+            button{
+                width: 221px;
+                height: 50px;
+                background: #4BA87D;
+                border-style: none;
+                border-radius: 5px;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 900;
+                font-style: normal;
+                font-size: 20px;
+                line-height: 25px;
+                text-align: center;
+                letter-spacing: 1.05px;
+                color: #ffffff;
+            }
+        }
+        .text{
+            width: 680px;
+            height: 25px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 20px;
+            text-align: center;
+            line-height: 25px;
+            letter-spacing: 1.05px;
+            color: #4BA87D;
+            padding-top: 10px;
+        }
+        .title2{
+            width: 100%;
+            max-width: 1440px;
+            height: auto;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            h1{
+                font-family: 'Raleway', sans-serif;
+                font-weight: 900;
+                font-style: normal;
+                font-size: 44px;
+                line-height: 48px;
+                color: #000000;
+            }
+        }
+        .images{
+            padding-top: 50px;
+            padding-bottom: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .image1{
+                img{
+                    width: 100%;
+                    max-width: 160px;
+                    height: auto;
+                }
+            }
+            .image2{
+                padding-left: 60px;
+                img{
+                    width: 100%;
+                    max-width: 85px;
+                    height: auto;
+                }
+            }  
+            .image3{
+                padding-left: 60px;
+                img{
+                    width: 100%;
+                    max-width: 145px;
+                    height: auto;
+                }
+            }    
+            .image4{
+                padding-left: 60px;
+                img{
+                    width: 100%;
+                    max-width: 141px;
+                    height: auto;
+                }
+            }    
+            .image5{
+                padding-left: 60px;
+                img{
+                    width: 100%;
+                    max-width: 138px;
+                    height: auto;
+                }
+            }
+        }      
+    }
+}
+
+// Section-4 End
+
+// Section-5 Start
+
+#about-5{
+    background: #4BA87D;
+    width: 100%;
+    max-width: 1440px;
+    height: 366px;
+    position: relative;
+    .container{
+        .umumi-div{
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            padding-top: 150px;
+            .title{
+                h1{
+                font-family: 'Raleway', sans-serif;
+                font-weight: 900;
+                font-style: normal;
+                font-size: 60px;
+                line-height: 80px;
+                color: #ffffff;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+// Section-5 End
+
+// Section-6 Start
+
+/*#about-6{
+    
+    .container{
+        width: 100%;
+        max-width: 1440px;
+        height: auto;
+        .div6{
+            .images{
+                img{
+                    width: 100%;
+                    max-width: 129px;
+                    height: 64.5px;
+                }
+            }
+            .title6{
+                h5{
+                    width: 100%;
+                    max-width: 163px;
+                    min-height: 41px;
+                    position: absolute;
+                    left: 17%;
+                    top: 23%;
+                    font-family: "Playfair Display";
+                    font-weight: 900;
+                    font-style: normal;
+                    font-size: 35px;
+                    line-height: 41px;
+                    color: #000000;
+                }
+            }
+        }
+        
+
+    }
+}
+
+// Section-6 End */

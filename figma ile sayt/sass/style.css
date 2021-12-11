@@ -1,0 +1,642 @@
+header .container {
+  width: 1440px;
+  background: #ffffff;
+}
+
+header .container a img {
+  width: 100%;
+  max-width: 129px;
+  height: 64.5px;
+}
+
+header .container a h3 {
+  width: 100%;
+  max-width: 163px;
+  min-height: 41px;
+  position: absolute;
+  left: 17%;
+  top: 23%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 41px;
+  color: #000000;
+}
+
+header .container ul li a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 1.275px;
+  color: #000000;
+}
+
+header .container form button {
+  width: 168px;
+  height: 41px;
+  background: #4BA87D;
+}
+
+header .container form .btn-1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 1.275px;
+  color: #ffffff;
+}
+
+#about-1 {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+}
+
+#about-1 .container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about-1 .container .umumi-text-button {
+  width: 100%;
+  max-width: 721px;
+  height: auto;
+  z-index: 10000;
+}
+
+#about-1 .container .umumi-text-button .title h1 {
+  padding-top: 40px;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 65px;
+  line-height: 70px;
+  color: #000000;
+}
+
+#about-1 .container .umumi-text-button .text p {
+  max-width: 446px;
+  height: auto;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 26px;
+  color: #000000;
+}
+
+#about-1 .container .umumi-text-button .button-1 .box1 {
+  width: 200px;
+  height: 50px;
+  background: #4BA87D;
+  border-radius: 5px;
+}
+
+#about-1 .container .umumi-text-button .button-1 .btn-text-1 {
+  width: 200px;
+  height: 25px;
+}
+
+#about-1 .container .umumi-text-button .button-1 .btn-text-1 h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 1.05px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 10px;
+}
+
+#about-1 .container .umumi-text-button .button-2 {
+  padding-left: 30px;
+}
+
+#about-1 .container .umumi-text-button .button-2 .box2 {
+  width: 200px;
+  height: 50px;
+  border: 2px solid #4BA87D;
+  border-radius: 5px;
+  background: #ffffff;
+}
+
+#about-1 .container .umumi-text-button .button-2 .btn-text-2 {
+  width: 200px;
+  height: 25px;
+}
+
+#about-1 .container .umumi-text-button .button-2 .btn-text-2 h6 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 1.05px;
+  text-align: center;
+  color: #4BA87D;
+  padding-top: 10px;
+}
+
+#about-1 .container .images {
+  z-index: 10;
+}
+
+#about-1 .container .images img {
+  width: 100%;
+  max-width: 721px;
+  height: auto;
+}
+
+#about-2 {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+}
+
+#about-2 .container {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  padding-bottom: 200px;
+}
+
+#about-2 .container .images {
+  position: relative;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: -100;
+}
+
+#about-2 .container .images img {
+  width: 100%;
+  max-width: 944px;
+  height: auto;
+}
+
+#about-2 .container .text-button {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  z-index: 999;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#about-2 .container .text-button .text h1 {
+  width: 100%;
+  max-width: 656px;
+  height: auto;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 80px;
+  color: #ffffff;
+}
+
+#about-2 .container .text-button .button .box {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  background: #ffffff;
+}
+
+#about-2 .container .text-button .button .box .btn-text {
+  width: 100%;
+  max-width: 136px;
+  height: auto;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 1.05px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #4BA87D;
+}
+
+#about-3 {
+  background-color: #4BA87D;
+}
+
+#about-3 .container {
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#about-3 .container .card1 {
+  border-style: none;
+}
+
+#about-3 .container .card1 img {
+  width: 100%;
+  max-width: 424.34px;
+  height: auto;
+}
+
+#about-3 .container .card1 .card-body {
+  background: #ffffff;
+}
+
+#about-3 .container .card1 .card-body .card-text1 {
+  width: 300px;
+  height: 90px;
+  left: 30px;
+  top: 277px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+
+#about-3 .container .card1 .card-body .card-text2 {
+  width: 300px;
+  height: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4BA87D;
+}
+
+#about-3 .container .card2 {
+  border-style: none;
+  padding-top: 100px;
+  padding-left: 25px;
+}
+
+#about-3 .container .card2 img {
+  width: 100%;
+  max-width: 423.39px;
+  height: auto;
+}
+
+#about-3 .container .card2 .card-body {
+  background: #ffffff;
+}
+
+#about-3 .container .card2 .card-body .card-text3 {
+  width: 300px;
+  height: 90px;
+  left: 30px;
+  top: 277px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+
+#about-3 .container .card2 .card-body .card-text4 {
+  width: 300px;
+  height: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4BA87D;
+}
+
+#about-3 .container .card3 {
+  border-style: none;
+  padding-top: 150px;
+  padding-left: 25px;
+}
+
+#about-3 .container .card3 h1 {
+  width: 365px;
+  height: 120px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 45px;
+  color: #000000;
+}
+
+#about-3 .container .card3 .card-body .card-text5 {
+  width: 322px;
+  height: 156px;
+  left: 30px;
+  top: 277px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 19px;
+  line-height: 26px;
+  color: #000000;
+}
+
+#about-3 .container .card3 .card-body .card-text4 {
+  width: 300px;
+  height: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4BA87D;
+}
+
+#about-4 .container {
+  width: 100%;
+  height: auto;
+  padding-top: 100px;
+  /*.umumi-card{
+            position: relative;
+            z-index: 1;*/
+  /*.card-body{
+                position: absolute;
+                z-index: 1000;
+                width: 100%;
+                max-width: 342px;
+                height: 239px;
+                .card-title{
+                    color: #ffffff;
+                }
+                .card-text{
+                    color: #ffffff;
+                }
+
+            }
+        }*/
+}
+
+#about-4 .container .card {
+  border-style: none;
+}
+
+#about-4 .container .card img {
+  width: 100%;
+  max-width: 342px;
+  height: auto;
+}
+
+#about-4 .container .title1 {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#about-4 .container .title1 h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 48px;
+  color: #000000;
+}
+
+#about-4 .container form {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+
+#about-4 .container form input {
+  width: 420px;
+  height: 50px;
+  border: 1px solid #9F9F9F;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #ffffff;
+}
+
+#about-4 .container form button {
+  width: 221px;
+  height: 50px;
+  background: #4BA87D;
+  border-style: none;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 1.05px;
+  color: #ffffff;
+}
+
+#about-4 .container .text {
+  width: 680px;
+  height: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 1.05px;
+  color: #4BA87D;
+  padding-top: 10px;
+}
+
+#about-4 .container .title2 {
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#about-4 .container .title2 h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 48px;
+  color: #000000;
+}
+
+#about-4 .container .images {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#about-4 .container .images .image1 img {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+}
+
+#about-4 .container .images .image2 {
+  padding-left: 60px;
+}
+
+#about-4 .container .images .image2 img {
+  width: 100%;
+  max-width: 85px;
+  height: auto;
+}
+
+#about-4 .container .images .image3 {
+  padding-left: 60px;
+}
+
+#about-4 .container .images .image3 img {
+  width: 100%;
+  max-width: 145px;
+  height: auto;
+}
+
+#about-4 .container .images .image4 {
+  padding-left: 60px;
+}
+
+#about-4 .container .images .image4 img {
+  width: 100%;
+  max-width: 141px;
+  height: auto;
+}
+
+#about-4 .container .images .image5 {
+  padding-left: 60px;
+}
+
+#about-4 .container .images .image5 img {
+  width: 100%;
+  max-width: 138px;
+  height: auto;
+}
+
+#about-5 {
+  background: #4BA87D;
+  width: 100%;
+  max-width: 1440px;
+  height: 366px;
+  position: relative;
+}
+
+#about-5 .container .umumi-div {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 150px;
+}
+
+#about-5 .container .umumi-div .title h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 80px;
+  color: #ffffff;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*#about-6{
+    
+    .container{
+        width: 100%;
+        max-width: 1440px;
+        height: auto;
+        .div6{
+            .images{
+                img{
+                    width: 100%;
+                    max-width: 129px;
+                    height: 64.5px;
+                }
+            }
+            .title6{
+                h5{
+                    width: 100%;
+                    max-width: 163px;
+                    min-height: 41px;
+                    position: absolute;
+                    left: 17%;
+                    top: 23%;
+                    font-family: "Playfair Display";
+                    font-weight: 900;
+                    font-style: normal;
+                    font-size: 35px;
+                    line-height: 41px;
+                    color: #000000;
+                }
+            }
+        }
+        
+
+    }
+}
+
+// Section-6 End */
+/*# sourceMappingURL=style.css.map */
